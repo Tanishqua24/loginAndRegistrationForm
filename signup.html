@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook SignUp Page</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: rgb(112, 175, 247);
+        }
+        
+        .container {
+            border: 1px solid black;
+            width: 50%;
+            height: 80vh;
+            margin: 0% 10% 5% 25%;
+            border: none;
+        }
+        
+        .image {
+            width: 50%;
+            height: 80vh;
+            float: left;
+            background-color: palevioletred;
+        }
+        
+        .content {
+            width: 50%;
+            height: 80vh;
+            float: right;
+            background-color: rgb(98, 10, 180);
+        }
+        
+        table {
+            padding: 100px 0px 50px 30px;
+        }
+        
+        button {
+            padding: 5px 10px;
+            margin: 10px 0px;
+            background-color: rgb(136, 235, 248);
+            color: white;
+            border: none;
+        }
+        
+        button:hover {
+            opacity: 0.3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1><b>Facebook SignUp form</b></h1>
+        <div class="container">
+            <div class="image">
+                <img src="facebook4.jpg" width="100%" height="100%" />
+            </div>
+            <div class="content">
+                <form>
+                    <table>
+                        <tr>
+                            <td style="color: white;">Firstname</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td style="color: white;">Lastname</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td style="color: white;">E-mail</td>
+                            <td><input type="email"></td>
+                        </tr>
+                        <tr>
+                            <td style="color: white;">Password</td>
+                            <td><input type="password"></td>
+                        </tr>
+                        <tr>
+                            <td style="color: white;">Sex</td>
+                            <td><select id="selector">
+                            <option value="male">Male</option>
+                            <option value="female" selected>Female</option>
+                            <option value="bisexual">Bisexual</option>
+                            <option value="I don't want to disclose">I don't want to disclose</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button>SignUp</button>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
